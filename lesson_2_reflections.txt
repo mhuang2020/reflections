@@ -5,4 +5,33 @@ It creates a place in which all the commits are kept after bring committed. This
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-Staging area nothing is committed but once it is committed, all of them get committed under one commit. 
+Staging area nothing is committed but once it is committed, all of them get committed under one commit.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Since I don't always want to commit every file every time I make a change, I can put multiple files in the staging area
+and commit them all together.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I am experimenting with something and I don't want to change the whole game until I am sure it works, I can make a
+branch to work on. If I need to go back to my main game, I can always do that.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Looking at diagrams with the branch structures, we can add arrows to see exactly what commits are under what branch
+and which commits are not reachable.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Added changes are added, deleted things are deleted. Things kept the same will be kept the same.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The pros are that if there are no conflicts, it is extremely simple to merge. But if there are conflicts, it becomes
+a trouble to manually merge. 
